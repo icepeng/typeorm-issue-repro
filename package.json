@@ -1,0 +1,14 @@
+{
+  "name": "typeorm-issue-repro",
+  "version": "0.0.0",
+  "scripts": {
+    "start": "npm run build:live",
+    "build:live": "nodemon --exec ./node_modules/.bin/ts-node -- ./src/index.ts"
+  },
+  "dependencies": {
+    "pg": "^7.4.0",
+    "ts-node": "^3.3.0",
+    "typeorm": "^0.2.0-alpha.11",
+    "typescript": "^2.6.2"
+  }
+}
